@@ -5,4 +5,4 @@ services:
     branch: master
     autoDeploy: true
     plan: free
-    healthCheckPath: /
+    healthCheckPath: /index.jsp
