@@ -4,11 +4,11 @@ Dự án Java Web động giúp quản lý thông tin nhân viên, được phá
 
 ---
 
-## Tính năng chính
+## Tính năng
 
-- Thêm, sửa, xoá nhân viên
-- Tìm kiếm, lọc theo tên, giới tính, phòng ban
-- Quản lý thông tin chi tiết (lương, chức vụ, ngày vào làm)
+- Thêm, sửa, xoá nhân viên, phòng ban, nghỉ phép, hợp đồng,...
+- Tìm kiếm lọc theo tên, mã nhân viên
+- Quản lý thông tin chi tiết
 - Giao diện người dùng đơn giản với JSP
 
 ---
@@ -26,7 +26,7 @@ Dự án Java Web động giúp quản lý thông tin nhân viên, được phá
 ---
 
 ## Cấu trúc thư mục
-
+```
 EmployeeManager/
 ├── src/
 │ └── controller/ # Servlet xử lý logic
@@ -38,3 +38,4 @@ EmployeeManager/
 ├── WEB-INF/
 │ └── web.xml
 └── README.md
+```

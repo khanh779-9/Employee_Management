@@ -23,7 +23,7 @@ body {
 
 </head>
 <body>
-		<div style="margin: auto; padding: 30px; display: flex; flex-direction: column; align-items:center; justify-content:center; background-color: rgba(var(--surface)); 
+		<div style="padding: 30px; display: flex; flex-direction: column; align-items:center; justify-content:center; background-color: rgba(var(--surface)); margin: auto; 
 		width: 500px; height: auto; border: 1px solid rgba(var(--primary)); box-shadow: var(--shadow-lg); border-radius: 10px; gap: 20px;">
 		
 			<img src="./images/flaticon.com-ad-blocker.png" style="width: 150px; height: 150px; user-select: none;"/>
