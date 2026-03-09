@@ -4,13 +4,14 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+
+import Utils.JpaConfig;
 
 import model.Report;
 
 public class ReportDao {
 
-	EntityManagerFactory emf= Persistence.createEntityManagerFactory("Z_DoAn");
+	EntityManagerFactory emf= JpaConfig.getEntityManagerFactory();
 	EntityManager em = emf.createEntityManager();
 
 

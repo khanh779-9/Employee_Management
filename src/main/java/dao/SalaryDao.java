@@ -5,13 +5,14 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+
+import Utils.JpaConfig;
 
 import model.Salary;
 
 public class SalaryDao {
 
-	private EntityManagerFactory emf = Persistence.createEntityManagerFactory("Z_DoAn");
+	private EntityManagerFactory emf = JpaConfig.getEntityManagerFactory();
 	private EntityManager em = emf.createEntityManager();
 
 	public SalaryDao() {
