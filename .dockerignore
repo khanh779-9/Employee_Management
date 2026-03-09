@@ -1,0 +1,8 @@
+.git
+.gitignore
+nbbuild
+dist
+nbproject/private
+**/*.log
+.DS_Store
+Thumbs.db
