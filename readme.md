@@ -38,8 +38,23 @@ EmployeeManager/
 ├── WEB-INF/
 │ └── web.xml
 └── README.md
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 2a2e89fdb1cd0deca38343d2c54e3bb5be1aa829
+
+## Cấu hình môi trường
+
+Ứng dụng đọc cấu hình DB từ biến môi trường:
+
+- `DB_URL`
+- `DB_USER`
+- `DB_PASSWORD`
+- `DB_DRIVER` (tuỳ chọn, mặc định `com.mysql.jdbc.Driver`)
+
+Ví dụ `DB_URL`:
+
+`jdbc:mysql://<host>:3306/ltudcsdl_doan?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC`
+
+## Deploy Render
+
+- Service đang chạy bằng `Dockerfile`.
+- Docker build đã được cấu hình để tự tải và đóng gói runtime libraries (JPA/Hibernate/MySQL) vào `WEB-INF/lib`.
+- Trên Render, vào **Environment** và set đủ `DB_URL`, `DB_USER`, `DB_PASSWORD`.
